@@ -7,6 +7,7 @@ nav{
      justify-content: space-between;
      background-color: rgb(68, 68, 175);
      padding: 15px 100px;
+     border:  4px solid  rgb(39, 39, 218);;
      
 }
 nav ul{
@@ -37,4 +38,39 @@ div h2{
 }
 .colord{
      color: rgb(15, 242, 87);
+}
+/* header */
+header{
+     background-image: url('image/bg.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     padding: 100px 0px; 
+}
+.inputicon{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.inputicon i{
+     color: rgb(15, 242, 87);
+     background-color: red;
+     font-size: 20px;
+     height: 40px;
+     width: 40px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 5px;
+     cursor:pointer;
+     margin-left:-15px;
+
+}
+.inputicon input{
+     font-size: 20px;
+     height: 40px;
+     width: 300px;
+     border-radius: 5px;
+     font-size: 20px;
+     padding: 5px 10px;
 }
