@@ -74,3 +74,39 @@ header{
      font-size: 20px;
      padding: 5px 10px;
 }
+/* main */
+main{
+     background-color: rgb(56, 56, 221);
+}
+.cprent{
+     width: 1000px;
+     /* border: 1px solid red; */
+     margin: auto;
+     padding-top: 20px;
+    
+}
+.h4h3{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+
+}
+.h3c{
+     color: aqua;
+     font-size: 30px;
+     font-weight: bold;
+
+}
+.h4c{
+     color: aqua;
+     font-size: 30px;
+     font-weight: bold;
+}
+.h4c span{
+     color: rgb(255, 255, 255);
+     background-color: black;
+     padding: 4px;
+     border-radius: 3px;
+     font-size: 30px;
+     font-weight: bold;
+}
