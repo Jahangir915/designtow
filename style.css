@@ -145,5 +145,61 @@ main{
      border-radius: 10px;
      
 }
-
+#previous{
+     margin-top: 90px;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 100px;
+     align-items: center;
+}
+#previous a{
+     text-decoration: none;
+}
+#previous h3 a{
+     background-color: aqua;
+     padding: 12px 30px;
+     border-radius: 5px;
+}
+#previous h3 a i{
+     /* background-color: aqua; */
+     padding: 5px 10px;
+     /* height:20px; */
      
+  
+}
+#previous h3 a:hover{
+     background-color: rgb(231, 66, 66);
+     
+}
+.alink a{
+     padding: 10px;
+     background-color: aliceblue;
+     color: black;
+     margin: 0px 10px;
+     border-radius: 5px;
+}
+#previous div a:first-child{
+     background-color: aqua;
+}
+.Complet{
+     text-align: center;
+     color: aliceblue;
+     font-weight: bold;
+}
+/* footerc */
+.fcolor{
+     background-color: rgb(179, 78, 78);
+}
+.footerc{
+     width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+     margin: auto;
+     padding-top: 20px;
+     padding-bottom: 70px;
+}
+.footer1 h3{
+     color: aliceblue;
+     font-weight: bold;
+     font-size: 20px;
+}
